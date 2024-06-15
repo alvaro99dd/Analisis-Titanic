@@ -6,8 +6,8 @@ import numpy as np
 
 st.set_page_config(page_title="Titanic", page_icon=":passenger_ship:",layout="wide") #configuración de la página
 
-df = pd.read_csv("https://github.com/alvaro99dd/Analisis-Titanic/blob/main/Recursos/titanic.csv")
-df_repaired = pd.read_csv("https://github.com/alvaro99dd/Analisis-Titanic/blob/main/Recursos/titanic_repaired.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/alvaro99dd/Analisis-Titanic/blob/main/Recursos/titanic.csv")
+df_repaired = pd.read_csv("https://raw.githubusercontent.com/alvaro99dd/Analisis-Titanic/blob/main/Recursos/titanic_repaired.csv")
 
 def change_page(seleccion):
     """Muestra la página en función de lo que seleccione el usuario en el sidebar"""
@@ -31,7 +31,7 @@ def inicio():
     with col1:
         # Imagen
         st.markdown("##")
-        st.image("https://github.com/alvaro99dd/Analisis-Titanic/blob/main/Recursos/imagen_Titanic.webp"
+        st.image("https://raw.githubusercontent.com/alvaro99dd/Analisis-Titanic/blob/main/Recursos/imagen_Titanic.webp"
         , caption="Créditos: Getty Images" # Añado créditos
         , width=650) # Ajusto anchura
     with col2:
@@ -58,7 +58,7 @@ def reparacion():
     st.divider()
     # Muestro el mapa de calor con los valores nulos
     st.subheader("Observamos qué columnas necesitan reparación de nuestro conjunto de datos")
-    st.image("https://github.com/alvaro99dd/Analisis-Titanic/blob/main/Recursos/heatmap.png")
+    st.image("https://raw.githubusercontent.com/alvaro99dd/Analisis-Titanic/blob/main/Recursos/heatmap.png")
     st.divider()
     # Muestro los datos ya reparados
     st.subheader("Aplicamos a cada columna el tratamiento necesario (si lo fuese)")
@@ -138,7 +138,7 @@ def clase_pasajero():
         st.markdown("#")
         st.markdown("#####")
         # Muestro la imagen
-        st.image("https://github.com/alvaro99dd/Analisis-Titanic/blob/main/Recursos/clases_titanic.jpg", caption=["Menús de primera, segunda y tercera clase que se sirvieron el último día de navegación del Titanic. Créditos: rafaelcastillejo.com"])
+        st.image("https://raw.githubusercontent.com/alvaro99dd/Analisis-Titanic/blob/main/Recursos/clases_titanic.jpg", caption=["Menús de primera, segunda y tercera clase que se sirvieron el último día de navegación del Titanic. Créditos: rafaelcastillejo.com"])
     # Divido las secciones
     st.divider()
     st.subheader("Relación entre el :blue[sexo], la :green[clase] del pasajero y su :red[supervivencia]")
