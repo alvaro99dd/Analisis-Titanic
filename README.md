@@ -1,6 +1,7 @@
 # Analisis Titanic
 ![Alt text](https://github.com/alvaro99dd/Analisis-Titanic/blob/main/Recursos/imagen_Titanic.webp "Heatmap de valores nulos")
 Investigación y análisis sobre el conjunto de datos de Titanic
+Haz click [aquí](https://alvaro99dd-analisis-titanic-titanic-app-jseks4.streamlit.app/) para acceder a la app.
 
 ## Descripción
 Ejercicio realizado durante la bootcamp de Upgrade Hub. Con un dataset que contiene distintas víctimas del Titanic,
