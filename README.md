@@ -1,4 +1,5 @@
 # Analisis Titanic
+![Alt text](https://github.com/alvaro99dd/Analisis-Titanic/blob/main/Recursos/imagen_Titanic.webp "Heatmap de valores nulos")
 Investigación y análisis sobre el conjunto de datos de Titanic
 
 ## Descripción
@@ -23,6 +24,7 @@ Tras investigar el conjunto de datos, llegué a la siguiente conclusión:
 
 ### Reparación de datos
 ![Alt text](https://github.com/alvaro99dd/Analisis-Titanic/blob/main/Recursos/heatmap.png "Heatmap de valores nulos")
+
 Se puede observar que hay una gran cantidad de valores nulos. La columna Cabin he decidido ignorarla ya que para mi investigación no me resultaba útil,
 así que puse todos mis esfuerzos en la columna Age. Reparé sus datos usando el algoritmo KNN para evitar que la distribución se viera altamente afectada.
 
