@@ -6,7 +6,7 @@ Ejercicio realizado durante la bootcamp de Upgrade Hub. Con un dataset que conti
 revisar las distintas relaciones entre variables y obtener ideas interesantes que posteriormente fueron expuestas.
 
 ## Dataset
-![Alt text](Recursos\dataset.png)
+![Alt text](https://github.com/alvaro99dd/Analisis-Titanic/blob/main/Recursos/dataset.png)
 Tras investigar el conjunto de datos, llegué a la siguiente conclusión:
 * PassengerId: identificador único del pasajero.
 * Survived: si el pasajero sobrevivió al naufragio, codificada como 0 (no) y 1 (si).
@@ -22,7 +22,7 @@ Tras investigar el conjunto de datos, llegué a la siguiente conclusión:
 * Embarked: puerto en el que embarcó el pasajero.
 
 ### Reparación de datos
-![Alt text](Recursos\heatmap.png "Heatmap de valores nulos")
+![Alt text](https://github.com/alvaro99dd/Analisis-Titanic/blob/main/Recursos/heatmap.png "Heatmap de valores nulos")
 Se puede observar que hay una gran cantidad de valores nulos. La columna Cabin he decidido ignorarla ya que para mi investigación no me resultaba útil,
 así que puse todos mis esfuerzos en la columna Age. Reparé sus datos usando el algoritmo KNN para evitar que la distribución se viera altamente afectada.
 
